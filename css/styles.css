@@ -1,0 +1,157 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#title{
+  background-color:#ff4c68;
+  color : white;
+
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size:  3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size:  3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+h3{
+  font-weight:800 ;
+}
+
+.container-fluid{
+  padding :7% 15% 7%;
+}
+
+/* Navigation bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding : 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size:2.5rem;
+
+}
+
+/* Download buttons */
+.dbtn{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.titleimg{
+  width : 60%;
+  transform : rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+
+}
+
+/* features */
+#features{
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+
+}
+
+.f_ico{
+  margin-bottom: 1rem;
+  color : #ef8172;
+}
+
+.f_ico:hover{
+  color : #ff4c68;
+
+}
+
+.f_col{
+  padding : 5% 5%;
+}
+
+
+/* testimonial section */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color : #fff;
+
+}
+.testimonial-image{
+  width : 10%;
+  border-radius: 100%;
+  margin : 20px;
+}
+
+.carousel-item{
+  padding :7% 15%;
+}
+
+/* press */
+
+#press{
+  padding :7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color : #fff;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width : 15%;
+  margin : 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing{
+  padding : 100px;
+  text-align: center;
+}
+
+.p_col{
+  padding : 3% 2%;
+}
+
+@media ( max-width:1048px ) {
+  .titleimg{
+    position:static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+#cta{
+  background-color:#ff4c68;
+  color: #fff;
+  text-align: center;
+  padding :7% 15% 7%;
+}
+.cta-h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900 ;
+}
+
+#footer{
+  padding :7% 15% 7%;
+  background-color: #fff;
+  text-align: center;
+}
